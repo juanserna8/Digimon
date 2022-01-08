@@ -1,6 +1,7 @@
 const addButton = document.querySelector('#addButton');
 let initialNumberCont = document.querySelector('#initialNumberCont');
 initialNumber = initialNumberCont.textContent;
+initialNumberCont.innerText = localStorage.initialNumber;
 
 addButton.addEventListener("click", () => {
     //initialNumberCont.innerHTML = initialNumber++;
@@ -9,6 +10,5 @@ addButton.addEventListener("click", () => {
     } else {
         localStorage.initialNumber = 0;
     }
-    initialNumberCont.innerHTML = localStorage.initialNumber;
+    initialNumberCont.innerText = localStorage.initialNumber;
 });
-
