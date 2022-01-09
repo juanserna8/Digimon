@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-npm",
+  "version": "1.0.0",
+  "description": "Basic Digimon's layout using Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanserna8/Digimon.git"
+  },
+  "keywords": [
+    "digimon"
+  ],
+  "author": "Juan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanserna8/Digimon/issues"
+  },
+  "homepage": "https://github.com/juanserna8/Digimon#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.12"
+  }
+}
